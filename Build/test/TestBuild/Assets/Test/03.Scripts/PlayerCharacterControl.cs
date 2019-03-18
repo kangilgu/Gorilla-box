@@ -108,11 +108,11 @@ namespace PlayerCharacter
 
                 if(Input.GetAxis("Mouse Y") > 0.2f)
                 {
-                    curCamera.transform.Rotate(-m_CharacterTurnY * Time.deltaTime, 0, 0);
+                    
                 }
                 else if(Input.GetAxis("Mouse Y") < -0.2f)
                 {
-                    curCamera.transform.Rotate(m_CharacterTurnY * Time.deltaTime, 0, 0);
+                    
                 }
             }
 
