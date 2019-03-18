@@ -13,7 +13,6 @@ public class ObjectInfo : MonoBehaviour
 
     public float _time = 0.0f;
 
-    // Start is called before the first frame update
     void Start()
     {
         _Camera = GetComponentInChildren<Camera>();
@@ -24,13 +23,11 @@ public class ObjectInfo : MonoBehaviour
         _Button.SetActive(false);
     }
 
-    // Update is called once per frame
     void Update()
     {
         if(_time % 3 > 2)
         {
             _time = 0;
-
             if (_Button == null)
                 return;
 
