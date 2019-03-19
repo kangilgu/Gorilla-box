@@ -1,4 +1,0 @@
-sceneSetups:
-- path: Assets/Test/00.Scene/LightTest.unity
-  isLoaded: 1
-  isActive: 1
